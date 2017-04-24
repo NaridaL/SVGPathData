@@ -162,7 +162,7 @@ SVGPathData.DRAWING_COMMANDS =
   SVGPathData.CURVE_TO | SVGPathData.SMOOTH_CURVE_TO | SVGPathData.QUAD_TO |
   SVGPathData.SMOOTH_QUAD_TO | SVGPathData.ARC;
 
-// Export the main contructor first (tests are failing otherwise)
+// Export the main constructor first (tests fail otherwise)
 module.exports = SVGPathData;
 
 // Expose the internal constructors
